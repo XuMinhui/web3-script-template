@@ -1,0 +1,9 @@
+{
+    "Binance": {
+        "0x55d398326f99059ff775485246999027b3197955": {
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 18
+        }
+    }
+}

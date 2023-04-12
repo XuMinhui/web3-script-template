@@ -1,0 +1,7 @@
+node_modules
+app
+config/*.txt
+config/*.json
+config/*.xlsx
+db
+logs/
