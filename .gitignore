@@ -5,3 +5,4 @@ config/*.json
 config/*.xlsx
 db
 logs/
+web3/types

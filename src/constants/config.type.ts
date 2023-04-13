@@ -1,4 +1,4 @@
-import { SupportChain } from "../web3/type"
+import { SupportChainType } from "web3-script-sdk/dist/web3"
 
 export type IEnv = 'NODE_DEV' | 'NODE_PROD'
 
@@ -12,7 +12,7 @@ export interface IUniversalConfig {
         proxy_default?: string,
         proxy_pools?: string,
     },
-    CustomRpc: Record<SupportChain, string>
+    CustomRpc: Record<SupportChainType, string>
 }
 
 export interface ICustomConfig extends IUniversalConfig {
